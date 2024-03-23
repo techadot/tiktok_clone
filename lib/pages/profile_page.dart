@@ -64,9 +64,9 @@ class _ProfilePageState extends State<ProfilePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // following
-                Column(
+                const Column(
                   crossAxisAlignment: CrossAxisAlignment.end,
-                  children: const [
+                  children: [
                     Text(
                       '364',
                       style:
@@ -99,9 +99,9 @@ class _ProfilePageState extends State<ProfilePage> {
                 ),
 
                 // followers
-                Column(
+                const Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: const [
+                  children: [
                     Text(
                       '30M',
                       style:
@@ -122,9 +122,9 @@ class _ProfilePageState extends State<ProfilePage> {
             const SizedBox(height: 20),
 
             //name
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Text(
                   'Samuel Odukoya',
                   style: TextStyle(fontWeight: FontWeight.bold),
